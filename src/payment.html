@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+<div class="w-full h-full">
+
+  <!-- header部分 -->
+  <header class="w-full h-[12vw] bg-[#0097FF] text-white text-[4.8vw] fixed left-0 top-0 z-[1000] flex justify-center items-center">
+    <p>在线支付</p>
+  </header>
+
+  <!-- 订单信息部分 -->
+  <h3 class="mt-[12vw] box-border pt-[4vw] px-[4vw] pb-0 text-[4vw] font-light text-[#999]">订单信息：</h3>
+  <div class="box-border p-[4vw] text-[4vw] text-[#666] flex justify-between items-center">
+    <p class="">
+      万家饺子（软件园E18店）
+      <i class="fa fa-caret-down" id="showBtn"></i>
+    </p>
+    <p>&#165;49</p>
+  </div>
+
+  <!-- 订单明细部分 -->
+  <ul class="w-full" id="detailetBox">
+    <li class="w-full box-border py-[1vw] px-[4vw] flex justify-between items-center">
+      <p class="text-[3vw] text-[#666]">纯肉鲜肉（水饺） x 2</p>
+      <p class="text-[3vw] text-[#666]">&#165;15</p>
+    </li>
+    <li class="w-full box-border py-[1vw] px-[4vw] flex justify-between items-center">
+      <p class="text-[3vw] text-[#666]">玉米鲜肉（水饺） x 1</p>
+      <p class="text-[3vw] text-[#666]">&#165;16</p>
+    </li>
+    <li class="w-full box-border py-[1vw] px-[4vw] flex justify-between items-center">
+      <p class="text-[3vw] text-[#666]">配送费</p>
+      <p class="text-[3vw] text-[#666]">&#165;3</p>
+    </li>
+  </ul>
+
+  <!-- 支付方式部分 -->
+  <ul class="w-full">
+    <li class="w-full box-border p-[4vw] flex justify-between items-center">
+      <img class="w-[33vw] h-[8.9vw]" src="assets/img/alipay.png">
+      <i class="fa fa-check-circle"></i>
+    </li>
+    <li class="w-full box-border p-[4vw] flex justify-between items-center">
+      <img class="w-[33vw] h-[8.9vw]" src="assets/img/wechat.png">
+    </li>
+  </ul>
+  <div class="w-full box-border p-[4vw]">
+    <button class="w-full h-[10vw] border-none outline-none rounded-[4px] bg-green-400 text-white">确认支付</button>
+  </div>
+
+  <!-- 底部菜单部分 -->
+  <footer class="w-full h-[14vw] border-t-1 bg-[#fff] fixed left-0 bottom-0 flex justify-around items-center">
+    <div class="flex flex-col justify-center items-center text-[#999] select-none cursor-pointer" onclick="location.href='index.html'">
+      <i class="i bi:house-fill text-[5vw]"></i>
+      <p class="text-[2.8vw]">首页</p>
+    </div>
+    <div class="flex flex-col justify-center items-center text-[#999] select-none cursor-pointer">
+      <i class="i ion:compass-outline text-[5vw]"></i>
+      <p class="text-[2.8vw]">发现</p>
+    </div>
+    <div class="flex flex-col justify-center items-center text-[#999] select-none cursor-pointer" onclick="location.href='orderList.html'">
+      <i class="i mdi:file-document-outline text-[5vw]"></i>
+      <p class="text-[2.8vw]">订单</p>
+    </div>
+    <div class="flex flex-col justify-center items-center text-[#999] select-none cursor-pointer">
+      <i class="i ic:round-account-circle text-[5vw]"></i>
+      <p class="text-[2.8vw]">我的</p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

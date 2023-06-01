@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+<div class="w-full h-full ">
+
+  <!-- header部分 -->
+  <header class="w-full h-[12vw] bg-[#0097FF] text-white text-[4.8vw] fixed left-0 top-0 z-[1000] flex justify-center items-center">
+    <p>确认订单</p>
+  </header>
+
+  <!-- 订单信息部分 -->
+  <div class="w-full mt-[12vw] bg-[#0097FF] box-border p-[2vw] text-white">
+    <h5 class="text-[3vw] font-light">订单配送至：</h5>
+    <div class="w-full flex justify-between items-center font-bold select-none cursor-pointer mx-[1vw]">
+      <p class="w-[9/10] text-[5vw] ">沈阳市浑南区智慧四街1-121号</p>
+      <!--<i class="fa fa-angle-right"></i>-->
+    </div>
+    <p class="text-[3vw]">习近平先生 13656785432</p>
+  </div>
+
+  <h3 class="box-border p-[3vw] text-[4vw] text-[#666] border-t-1">万家饺子（软件园E18店）</h3>
+
+  <!-- 订单明细部分 -->
+  <ul class="w-full">
+    <li class="w-full h-[16vw] box-border p-[3vw] text-[#666] flex justify-between items-center">
+      <div class="flex items-center">
+        <img class="w-[10vw] h-[10vw]" src="assets/img/sp01.png">
+        <p class="text-[3.5vw] ml-[3vw]">纯肉鲜肉（水饺） x 2</p>
+      </div>
+      <p class="text-[3.5vw]">&#165;15</p>
+    </li>
+    <li class="w-full h-[16vw] box-border p-[3vw] text-[#666] flex justify-between items-center">
+      <div class="flex items-center">
+        <img class="w-[10vw] h-[10vw]" src="assets/img/sp02.png">
+        <p class="text-[3.5vw] ml-[3vw]">玉米鲜肉（水饺） x 1</p>
+      </div>
+      <p class="text-[3.5vw]">&#165;16</p>
+    </li>
+  </ul>
+  <div class="w-full h-[16vw] box-border p-[3vw] text-[#666] flex justify-between items-center text-[3.5vw]">
+    <p>配送费</p>
+    <p>&#165;3</p>
+  </div>
+
+  <!-- 合计部分 -->
+  <div class="w-full h-[14vw] fixed left-0 bottom-0 flex">
+    <div class="flex-[2] bg-[#505051] text-white text-[4.5vw] font-bold select-none flex justify-center items-center">
+      &#165;49
+    </div>
+    <div class="flex-1 bg-green-400 text-white text-[4.5vw] font-bold select-none cursor-pointer flex justify-center items-center" onclick="location.href='payment.html'">
+      去支付
+    </div>
+  </div>
+</div>
+</body>
+</html>
