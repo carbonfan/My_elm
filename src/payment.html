@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
+  <link href="../src/css/iconfont.css" rel="stylesheet">
 </head>
 <body>
 <div class="w-full h-full">
@@ -16,9 +17,9 @@
   <!-- 订单信息部分 -->
   <h3 class="mt-[12vw] box-border pt-[4vw] px-[4vw] pb-0 text-[4vw] font-light text-[#999]">订单信息：</h3>
   <div class="box-border p-[4vw] text-[4vw] text-[#666] flex justify-between items-center">
-    <p class="">
+    <p class="last-child:text-orange-500">
       万家饺子（软件园E18店）
-      <i class="fa fa-caret-down" id="showBtn"></i>
+      <i class="i prime:angle-down" id="showBtn"></i>
     </p>
     <p>&#165;49</p>
   </div>
@@ -43,7 +44,7 @@
   <ul class="w-full">
     <li class="w-full box-border p-[4vw] flex justify-between items-center">
       <img class="w-[33vw] h-[8.9vw]" src="assets/img/alipay.png">
-      <i class="fa fa-check-circle"></i>
+      <i class="i ep:circle-check-filled text-green-500 text-[5vw]"></i>
     </li>
     <li class="w-full box-border p-[4vw] flex justify-between items-center">
       <img class="w-[33vw] h-[8.9vw]" src="assets/img/wechat.png">
@@ -56,19 +57,19 @@
   <!-- 底部菜单部分 -->
   <footer class="w-full h-[14vw] border-t-1 bg-[#fff] fixed left-0 bottom-0 flex justify-around items-center">
     <div class="flex flex-col justify-center items-center text-[#999] select-none cursor-pointer" onclick="location.href='index.html'">
-      <i class="i bi:house-fill text-[5vw]"></i>
+      <i class="i prime:home text-[5vw]"></i>
       <p class="text-[2.8vw]">首页</p>
     </div>
     <div class="flex flex-col justify-center items-center text-[#999] select-none cursor-pointer">
-      <i class="i ion:compass-outline text-[5vw]"></i>
+      <i class="i prime:compass text-[5vw]"></i>
       <p class="text-[2.8vw]">发现</p>
     </div>
     <div class="flex flex-col justify-center items-center text-[#999] select-none cursor-pointer" onclick="location.href='orderList.html'">
-      <i class="i mdi:file-document-outline text-[5vw]"></i>
+      <i class="i prime:shopping-cart text-[5vw]"></i>
       <p class="text-[2.8vw]">订单</p>
     </div>
     <div class="flex flex-col justify-center items-center text-[#999] select-none cursor-pointer">
-      <i class="i ic:round-account-circle text-[5vw]"></i>
+      <i class="i prime:user text-[5vw]"></i>
       <p class="text-[2.8vw]">我的</p>
     </div>
   </footer>

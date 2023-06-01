@@ -19,27 +19,59 @@
 }
 
 
-.i.prime\:compass:before {
+.i.ep\:arrow-right-bold:before {
 content: "\e001";
 }
 
-.i.prime\:home:before {
+.i.ep\:circle-check-filled:before {
 content: "\e002";
 }
 
-.i.prime\:map-marker:before {
+.i.ep\:circle-plus:before {
 content: "\e003";
 }
 
-.i.prime\:search:before {
+.i.ep\:location-filled:before {
 content: "\e004";
 }
 
-.i.prime\:shopping-cart:before {
+.i.ep\:remove:before {
 content: "\e005";
 }
 
-.i.prime\:user:before {
+.i.ep\:star-filled:before {
 content: "\e006";
+}
+
+.i.prime\:angle-down:before {
+content: "\e007";
+}
+
+.i.prime\:compass:before {
+content: "\e008";
+}
+
+.i.prime\:filter-fill:before {
+content: "\e009";
+}
+
+.i.prime\:home:before {
+content: "\e00a";
+}
+
+.i.prime\:map-marker:before {
+content: "\e00b";
+}
+
+.i.prime\:search:before {
+content: "\e00c";
+}
+
+.i.prime\:shopping-cart:before {
+content: "\e00d";
+}
+
+.i.prime\:user:before {
+content: "\e00e";
 }
 
