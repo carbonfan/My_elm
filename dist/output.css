@@ -529,6 +529,14 @@ video {
   justify-content: center;
 }
 
+.order-detailet {
+  width: 100%;
+}
+
+.static {
+  position: static;
+}
+
 .fixed {
   position: fixed;
 }
@@ -667,6 +675,10 @@ video {
 
 .box-border {
   box-sizing: border-box;
+}
+
+.block {
+  display: block;
 }
 
 .flex {

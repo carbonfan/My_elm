@@ -22,6 +22,10 @@
         @apply
         text-[3vw] text-[#888] mt-[2vw]
     }
+    .order-detailet{
+        @apply
+        w-full
+    }
 }
 @tailwind utilities;
 
